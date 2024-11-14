@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100dvh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  border: 1px solid orange;
+  padding: 10px;
+}
+.text-one {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid orange;
+}
+.text-two {
+  padding: 20px;
+  border: 1px solid orange;
+  margin: 10px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+}
+
+.btn-container button {
+  width: 100px;
+  padding: 20px;
+  border: 1px solid orange;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.a-i {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.a-i button {
+  margin-top: 0;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  background-color: lightskyblue;
+}
+.b-i {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.b-i button {
+  margin-top: 0;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  background-color: lightskyblue;
+}
+.c-i {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.c-i button {
+  margin-top: 0;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  background-color: lightskyblue;
+}
+.flex {
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+}
